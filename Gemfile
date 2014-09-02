@@ -40,5 +40,5 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 
 gem 'pry-byebug'
-
 gem 'rspec-rails'
+gem 'hirb'
