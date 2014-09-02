@@ -1,4 +1,4 @@
-class CreateUserVideos < ActiveRecord::Migration
+	class CreateUserVideos < ActiveRecord::Migration
   def change
     create_table :user_videos do |t|
       t.references :user, index: true
